@@ -8,4 +8,6 @@ def dot_product(x, y):
     x=np.asarray(x)
     y=np.asarray(y)
 
-    return np.sum(x*y)
+    return np.dot(x,y)
+
+    
